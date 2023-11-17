@@ -1,0 +1,37 @@
+/* ====== Respoonsive design for (max-width: 350px) ========= */
+@media (max-width: 350px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  #navBar {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 0;
+    /* background-color: #222; */
+  }
+  .menu,
+  .nav_btn {
+    display: none;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .bars i {
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  #banner {
+    padding: 141px 0 85px 0;
+  }
+  .banner_wrapper h1 {
+    font-size: 25px;
+    line-height: 120%;
+    width: 260px;
+  }
+  .common_btn {
+    padding: 12px 25px;
+    text-align: center;
+  }
+}
